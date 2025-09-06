@@ -1,0 +1,443 @@
+{
+  "site": {
+    "name": "Darshan Gopani",
+    "role": "Data & Automation Engineer",
+    "tagline": "Designing scalable data platforms and automating analytics workflows.",
+    "location": "Remote",
+    "email": "darshangopani@gofynd.com",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/darshangopani",
+      "github": "https://github.com/darshangopani",
+      "x": "https://x.com/darshangopani"
+    },
+    "meta": {
+      "title": "Darshan Gopani — Data & Automation Engineer",
+      "description": "Portfolio of Darshan Gopani, a Data & Automation Engineer specializing in BigQuery, analytics engineering, and workflow automation."
+    }
+  },
+  "nav": [
+    {"label": "Home", "href": "/"},
+    {"label": "About", "href": "/about"},
+    {"label": "Projects", "href": "/projects"},
+    {"label": "Experience", "href": "/experience"},
+    {"label": "Skills", "href": "/skills"},
+    {"label": "Blog", "href": "/blog"},
+    {"label": "Contact", "href": "/contact"}
+  ],
+  "home": {
+    "hero": {
+      "title": "Data you can trust. Automation you can scale.",
+      "subtitle": "I build reliable data models, dashboards, and automations that turn raw events into decisions. BigQuery-first. Analytics you can ship.",
+      "primaryCta": {"label": "View Projects", "href": "/projects"},
+      "secondaryCta": {"label": "Get in touch", "href": "/contact"},
+      "alt": "Abstract grid with data nodes representing a modern data platform"
+    },
+    "highlights": [
+      "BigQuery + Looker dashboards for product, revenue, and usage analytics",
+      "Automation of ingestion, transformation, and quality checks",
+      "Schema design and unified entity modeling across products & subscriptions"
+    ],
+    "statsStrip": [
+      {
+        "icon": "Database",
+        "text": "9 core tables unified for Console dashboard",
+        "description": "Integrated complex data sources"
+      },
+      {
+        "icon": "TrendingUp",
+        "text": "3‑level Copilot analytics (overall → company → UTM)",
+        "description": "Multi-dimensional insights"
+      },
+      {
+        "icon": "DollarSign",
+        "text": "Stripe → BigQuery revenue modeling",
+        "description": "Automated financial reporting"
+      },
+      {
+        "icon": "Zap",
+        "text": "Automated data quality checks",
+        "description": "Reliable data pipelines"
+      }
+    ],
+    "signatureCaseStudy": {
+      "eyebrow": "Featured Project",
+      "title": "Copilot Analytics Platform",
+      "description": "Unified analytics across 6 product domains with 3-level dashboard architecture",
+      "bullets": [
+        {
+          "label": "Problem",
+          "text": "Product data lived in multiple operational tables with inconsistent keys and definitions"
+        },
+        {
+          "label": "Approach", 
+          "text": "Modeled central entity (account) and joined Copilot app datasets with UTM & device context"
+        },
+        {
+          "label": "Outcome",
+          "text": "Three-level dashboard enabling growth, product, and support teams to align on shared KPIs"
+        }
+      ],
+      "cta": {
+        "label": "View Case Study",
+        "href": "/projects/copilot-analytics-platform"
+      }
+    },
+    "hiringPlan": {
+      "title": "30/60/90 Day Plan",
+      "subtitle": "Concrete outcomes and deliverables for your first quarter",
+      "cards": [
+        {
+          "period": "30 Days",
+          "title": "Data Foundation",
+          "outcomes": [
+            "Audit existing data models and identify gaps",
+            "Establish data quality monitoring",
+            "Document current analytics workflows"
+          ],
+          "deliverables": [
+            "Data model assessment report",
+            "Quality check automation setup",
+            "Analytics documentation framework"
+          ]
+        },
+        {
+          "period": "60 Days", 
+          "title": "Unified Analytics",
+          "outcomes": [
+            "Build core entity models (account, product, subscription)",
+            "Create standardized metric definitions",
+            "Implement automated refresh schedules"
+          ],
+          "deliverables": [
+            "Unified data model in BigQuery",
+            "Metric contract documentation",
+            "Automated dashboard refresh pipeline"
+          ]
+        },
+        {
+          "period": "90 Days",
+          "title": "Self-Serve Platform",
+          "outcomes": [
+            "Deploy self-serve analytics dashboards",
+            "Enable stakeholder data access",
+            "Establish monitoring and alerting"
+          ],
+          "deliverables": [
+            "Looker Studio dashboard suite",
+            "Stakeholder training materials",
+            "Data quality alerting system"
+          ]
+        }
+      ]
+    },
+    "toolbox": {
+      "title": "Core Technologies",
+      "subtitle": "Tools and techniques I use to build reliable data systems",
+      "tools": [
+        {
+          "name": "BigQuery",
+          "icon": "Database",
+          "description": "Data warehouse and analytics"
+        },
+        {
+          "name": "SQL",
+          "icon": "Code",
+          "description": "Advanced query optimization"
+        },
+        {
+          "name": "Looker Studio",
+          "icon": "BarChart3",
+          "description": "Self-serve analytics"
+        },
+        {
+          "name": "Stripe Data",
+          "icon": "CreditCard",
+          "description": "Revenue modeling"
+        },
+        {
+          "name": "Data Modeling",
+          "icon": "Network",
+          "description": "Entity-first schemas"
+        },
+        {
+          "name": "Orchestration & QA",
+          "icon": "Settings",
+          "description": "Automated pipelines"
+        }
+      ]
+    },
+    "ctaBanner": {
+      "title": "Ready to build reliable data systems?",
+      "subtitle": "Let's discuss your analytics and automation needs",
+      "primaryCta": {
+        "label": "Send Email",
+        "href": "mailto:darshangopani@gofynd.com"
+      },
+      "secondaryCta": {
+        "label": "Download Resume",
+        "href": "/resume.pdf"
+      }
+    }
+  },
+  "footer": {
+    "brand": {
+      "name": "Darshan Gopani",
+      "role": "Data & Automation Engineer",
+      "tagline": "Designing scalable data platforms and automating analytics workflows.",
+      "location": "Remote"
+    },
+    "explore": {
+      "title": "Explore",
+      "links": [
+        {"label": "Home", "href": "/"},
+        {"label": "About", "href": "/about"},
+        {"label": "Projects", "href": "/projects"},
+        {"label": "Experience", "href": "/experience"},
+        {"label": "Skills", "href": "/skills"},
+        {"label": "Blog", "href": "/blog"},
+        {"label": "Contact", "href": "/contact"}
+      ]
+    },
+    "resources": {
+      "title": "Resources",
+      "links": [
+        {"label": "Download Resume", "href": "/Darshan-Gopani-Resume.pdf"},
+        {"label": "RSS Feed", "href": "/rss.xml"},
+        {"label": "View Sitemap", "href": "/sitemap.xml"},
+        {"label": "Privacy Policy", "href": "/privacy"}
+      ]
+    },
+    "connect": {
+      "title": "Connect",
+      "social": [
+        {
+          "name": "LinkedIn",
+          "href": "https://www.linkedin.com/in/darshangopani",
+          "icon": "Linkedin"
+        },
+        {
+          "name": "GitHub", 
+          "href": "https://github.com/darshangopani",
+          "icon": "Github"
+        },
+        {
+          "name": "X (Twitter)",
+          "href": "https://x.com/darshangopani",
+          "icon": "Twitter"
+        },
+        {
+          "name": "Email",
+          "href": "mailto:darshangopani@gofynd.com",
+          "icon": "Mail"
+        }
+      ]
+    },
+    "bottomBar": {
+      "copyright": "© {currentYear} Darshan Gopani. All rights reserved.",
+      "builtWith": "Built with Next.js & Tailwind CSS."
+    }
+  },
+  "about": {
+    "title": "About",
+    "summary": [
+      "I'm a Data & Automation Engineer who turns fragmented product and revenue data into clear insight. My focus is modeling, orchestration, and automation—so teams can trust metrics and ship decisions faster.",
+      "I work primarily in BigQuery with modern analytics engineering patterns. I design entity-centric models (e.g., account, product, subscription) and build dashboards that reveal activation, engagement, and monetization.",
+      "Beyond modeling, I automate the boring but critical parts—backfills, data quality checks, and refresh schedules—so stakeholders see fresh, reliable numbers every day."
+    ],
+    "focusAreas": [
+      "Data modeling in BigQuery; entity-first schemas",
+      "ETL/ELT automation and quality guardrails",
+      "Self-serve analytics (Looker Studio / Looker)",
+      "Revenue and product usage insights",
+      "Scalable query design & performance tuning"
+    ]
+  },
+  "projects": {
+    "intro": "Selected work across analytics engineering, automation, and serverless observability.",
+    "items": [
+      {
+        "slug": "copilot-analytics-platform",
+        "title": "Copilot Analytics Platform",
+        "role": "Analytics Engineer",
+        "period": "2024–2025",
+        "stack": ["BigQuery", "Looker Studio", "SQL"],
+        "summary": "Unified analytics across CopilotApps, Threads, Messages, DataSources, Integrations, and Subscriptions to measure creation, activation, engagement, and revenue.",
+        "problem": "Product data lived in multiple operational tables with inconsistent keys and definitions, making it hard to see a clean user journey per account.",
+        "approach": "Modeled a central entity (account) and joined Copilot app datasets (apps, threads, messages, integrations, data sources, subscriptions). Added UTM & device context for acquisition analysis and message counts by surface type.",
+        "outcome": "Three-level dashboard (overall, company-level, UTM view) enabling growth, product, and support teams to align on shared KPIs.",
+        "links": {
+          "demo": "",
+          "repo": ""
+        }
+      },
+      {
+        "slug": "revenue-analytics-stripe-bq",
+        "title": "Revenue Analytics with Stripe → BigQuery",
+        "role": "Data Engineer",
+        "period": "2025",
+        "stack": ["BigQuery", "Stripe data", "SQL"],
+        "summary": "Modeled multi-level revenue insights by product and organization using Stripe subscription and pricing data.",
+        "problem": "Finance and product teams needed unified visibility into subscriptions, plans, prices, and transactions across products.",
+        "approach": "Joined organizations, productAccounts, products, subscriptions, plans, prices, and transactions to build incremental, denormalized marts for reporting.",
+        "outcome": "A Console dashboard providing plan-level and product-level views with reliable MRR/ARR breakdowns.",
+        "links": {"demo": "", "repo": ""}
+      },
+      {
+        "slug": "console-dashboard-9-tables",
+        "title": "Console Dashboard across 9 Tables",
+        "role": "Analytics Engineer",
+        "period": "2025",
+        "stack": ["BigQuery", "Looker Studio", "SQL"],
+        "summary": "Console dashboard integrating products, productMetrics, plans, planMetrics, subscriptions, subscriptionMetrics, transactions, prices, and productAccounts.",
+        "problem": "Stakeholders needed a single pane of glass for plan and subscription health without switching tools.",
+        "approach": "Created standardized views with consistent time grains and entity keys; defined clear metric contracts.",
+        "outcome": "Self-serve analytics across products and subscriptions with minimal ad‑hoc SQL requests.",
+        "links": {"demo": "", "repo": ""}
+      },
+      {
+        "slug": "boltic-serverless-observability",
+        "title": "Boltic Serverless Observability",
+        "role": "Data Engineer",
+        "period": "2024–2025",
+        "stack": ["BigQuery", "SQL"],
+        "summary": "Unified analytics for serverless artifacts—Apps, Builds, Domains, Jobs, Namespaces, Releases, and schema_migrations.",
+        "problem": "Operational visibility across serverless entities was fragmented, slowing down diagnosis and planning.",
+        "approach": "Modeled joins across serverless reference tables and built entity-centric reports with drilldowns.",
+        "outcome": "Faster triage and a clearer view of release cadence, stability, and platform usage.",
+        "links": {"demo": "", "repo": ""}
+      },
+      {
+        "slug": "unified-journey-pipeline",
+        "title": "Unified Copilot Journey Pipeline",
+        "role": "Data & Automation Engineer",
+        "period": "2024–2025",
+        "stack": ["BigQuery", "SQL"],
+        "summary": "Mapped end-to-end user journey per account: creation, activation, integrations, deployments, threads, messages, and data sources.",
+        "problem": "Teams needed a single, trustworthy sequence of events per account to align activation metrics with usage.",
+        "approach": "Created resilient joins on accountid, standardized timestamps (using TIMESTAMP('1970-01-01') as a sane fallback), and added status flags for active/inactive threads.",
+        "outcome": "Consistent journey definitions powering product and success dashboards.",
+        "links": {"demo": "", "repo": ""}
+      },
+      {
+        "slug": "subscription-plan-insights",
+        "title": "Subscription & Plan Insights",
+        "role": "Analytics Engineer",
+        "period": "2024–2025",
+        "stack": ["BigQuery", "SQL"],
+        "summary": "Entity-level insights into plan adoption using joins across product accounts, plans, and subscriptions.",
+        "problem": "It was unclear which plans were adopted most and how plan mixes affected revenue and engagement.",
+        "approach": "Standardized plan and subscription dimensions, filtered out Free plans when necessary, and built plan cohort views.",
+        "outcome": "Clarity on plan performance to guide packaging and pricing experiments.",
+        "links": {"demo": "", "repo": ""}
+      }
+    ]
+  },
+  "experience": {
+    "intro": "Impact through consistent data modeling, automation, and decision-ready analytics.",
+    "items": [
+      {
+        "company": "Fynd",
+        "role": "Data & Automation Engineer",
+        "period": "2024–Present",
+        "highlights": [
+          "Built BigQuery-based models joining CopilotApps, Threads, Messages, DataSources, Integrations, and Subscriptions for unified analytics",
+          "Shipped multi-level dashboards (overall, company-level, UTM view) for growth and product teams",
+          "Modeled Stripe → BigQuery revenue data to power product and finance reporting",
+          "Designed account-centric schemas with clear metric contracts and definitions",
+          "Automated backfills and data quality checks, improving freshness and reliability"
+        ]
+      },
+      {
+        "company": "Independent / Side Projects",
+        "role": "Analytics Engineer",
+        "period": "Ongoing",
+        "highlights": [
+          "Built Console dashboards spanning 9 interconnected tables for plan/subscription visibility",
+          "Created serverless observability reports across Apps, Builds, Domains, Jobs, Namespaces, Releases",
+          "Established entity-level pipelines with stable join keys and timestamp standards"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "Data Engineering": ["BigQuery", "SQL (advanced)", "Data modeling", "Query optimization", "Entity design"],
+    "Automation & Orchestration": ["Scheduled refreshes", "Backfills", "Data quality checks", "Alerting/monitoring"],
+    "Analytics & Visualization": ["Looker Studio / Looker", "Dashboard design", "Metric contracts", "Cohort and funnel analysis"],
+    "Cloud & Tools": ["Stripe data modeling", "MDX for docs/blog", "Git-based workflows"],
+    "Practices": ["Documentation-first mindset", "Version control", "Performance & cost awareness"]
+  },
+  "blog": {
+    "intro": "Notes from shipping analytics and automation.",
+    "posts": [
+      {
+        "slug": "designing-entity-first-data-models",
+        "title": "Designing Entity‑First Data Models in BigQuery",
+        "excerpt": "How an account‑centric schema simplifies joins and stabilizes metrics across dashboards.",
+        "tags": ["BigQuery", "Modeling", "Analytics Engineering"],
+        "date": "2025-08-10"
+      },
+      {
+        "slug": "automation-guardrails",
+        "title": "Automation Guardrails: Backfills, Freshness, and Data Quality",
+        "excerpt": "Automate the boring parts—reliably—so your dashboards stay trustworthy.",
+        "tags": ["Automation", "Data Quality", "Orchestration"],
+        "date": "2025-08-22"
+      },
+      {
+        "slug": "stripe-to-bq-revenue-insights",
+        "title": "From Stripe to BigQuery: Building Revenue Insights",
+        "excerpt": "Joining subscriptions, plans, prices, and transactions for a single source of truth in revenue analytics.",
+        "tags": ["Stripe", "BigQuery", "Revenue"],
+        "date": "2025-09-01"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's collaborate",
+    "summary": "Have a data or automation problem worth solving? I can help model it, automate it, and ship it.",
+    "form": {
+      "fields": ["name", "email", "message"],
+      "successMessage": "Thanks! I'll get back to you shortly.",
+      "errorMessage": "Something went wrong. Please try again or use the email link."
+    }
+  },
+  "seo": {
+    "pages": [
+      {
+        "path": "/",
+        "title": "Darshan Gopani — Data & Automation Engineer",
+        "description": "Scalable data models and automation for analytics that teams trust."
+      },
+      {
+        "path": "/about",
+        "title": "About — Darshan Gopani",
+        "description": "BigQuery-first data modeling and automation to power reliable dashboards."
+      },
+      {
+        "path": "/projects",
+        "title": "Projects — Darshan Gopani",
+        "description": "Analytics engineering and automation projects in BigQuery, Stripe, and serverless."
+      },
+      {
+        "path": "/experience",
+        "title": "Experience — Darshan Gopani",
+        "description": "Impact delivering unified analytics and automated data pipelines."
+      },
+      {
+        "path": "/skills",
+        "title": "Skills — Darshan Gopani",
+        "description": "Data engineering, automation, and analytics visualization skills."
+      },
+      {
+        "path": "/blog",
+        "title": "Blog — Darshan Gopani",
+        "description": "Notes on data modeling, automation guardrails, and revenue analytics."
+      },
+      {
+        "path": "/contact",
+        "title": "Contact — Darshan Gopani",
+        "description": "Get in touch for data modeling and automation projects."
+      }
+    ]
+  }
+}
