@@ -1,3 +1,11 @@
+/**
+ * File: src/app/contact/page.tsx
+ * Purpose: Contact page with contact info cards and a form.
+ * Exports: `default` (Contact page component)
+ * Consumes: `getContent()` → `content.contact`, `content.site`
+ * Routes: GET /contact (text/html)
+ * Notes: Form posts to `/api/contact` (see handler). Static content otherwise.
+ */
 import { getContent } from '@/lib/content'
 import { ContactForm } from '@/components/contact-form'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'

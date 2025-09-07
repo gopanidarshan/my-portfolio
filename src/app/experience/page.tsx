@@ -1,3 +1,11 @@
+/**
+ * File: src/app/experience/page.tsx
+ * Purpose: Experience page displaying timeline of roles and highlights.
+ * Exports: `default` (Experience page component)
+ * Consumes: `getContent()` → `content.experience.*`
+ * Routes: GET /experience (text/html)
+ * Notes: Static data mapped into `Timeline` component.
+ */
 import { getContent } from '@/lib/content'
 import { Timeline } from '@/components/timeline'
 import Link from 'next/link'

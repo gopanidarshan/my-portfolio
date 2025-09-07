@@ -1,3 +1,11 @@
+/**
+ * File: src/components/site-nav.tsx
+ * Purpose: Responsive site navigation (desktop + mobile) with theme toggle and active link highlighting.
+ * Exports: `SiteNav`
+ * Consumes: Client location (`usePathname`); localStorage for theme preference
+ * Routes: N/A (component)
+ * Notes: 'use client' component. NOTE: Theme state persists via localStorage; prefers-color-scheme as fallback.
+ */
 'use client'
 
 import { useState, useEffect } from 'react'
@@ -59,7 +67,7 @@ export function SiteNav() {
                   Darshan Gopani
                 </span>
                 <span className="text-xs text-gray-500 dark:text-gray-400 font-medium">
-                  Data & Automation Engineer
+                  Program Intern @Fynd
                 </span>
               </div>
             </Link>

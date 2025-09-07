@@ -108,7 +108,7 @@ export function Footer() {
               © {new Date().getFullYear()} {content.site.name}. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground">
-              Built with Next.js, TypeScript, and Tailwind CSS
+              Built with Next.js, TypeScript, and Tailwind CSS by Darshan Gopani
             </p>
           </div>
         </div>

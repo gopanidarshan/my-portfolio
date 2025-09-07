@@ -1,3 +1,11 @@
+/**
+ * File: src/app/blog/[slug]/page.tsx
+ * Purpose: Dynamic blog post page rendering metadata, tags, and placeholder content.
+ * Exports: `default` (BlogPost page component)
+ * Consumes: `getBlogPostBySlug(slug)` from `lib/content`
+ * Routes: GET /blog/[slug] (text/html)
+ * Notes: Uses `notFound()` on missing slug; content stubbed (MDX/CMS could replace).
+ */
 import { notFound } from 'next/navigation'
 import { getBlogPostBySlug } from '@/lib/content'
 import { Badge } from '@/components/ui/badge'

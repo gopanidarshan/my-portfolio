@@ -1,3 +1,11 @@
+/**
+ * File: src/app/layout.tsx
+ * Purpose: Root App Router layout. Sets global fonts, metadata, theme provider, site navigation, footer, and mobile bottom bar.
+ * Exports: `metadata`, `default` (RootLayout component)
+ * Consumes: `getContent()` for site metadata; global styles from `src/app/globals.css`
+ * Routes: Wraps all routes under `src/app` (HTML shell for every page)
+ * Notes: Server component. NOTE: Child components like nav/footer include client logic. Keeps visual structure only; no business logic here.
+ */
 import type { Metadata } from "next";
 import { DM_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";

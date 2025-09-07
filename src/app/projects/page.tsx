@@ -1,3 +1,11 @@
+/**
+ * File: src/app/projects/page.tsx
+ * Purpose: Projects index displaying project cards and CTA.
+ * Exports: `default` (Projects page component)
+ * Consumes: `getContent()` → `content.projects.items`
+ * Routes: GET /projects (text/html)
+ * Notes: Static mapping; individual project pages handled by dynamic route.
+ */
 import { getContent } from '@/lib/content'
 import { ProjectCard } from '@/components/project-card'
 import Link from 'next/link'

@@ -1,3 +1,11 @@
+/*
+ * File: src/app/globals.css
+ * Purpose: Global Tailwind CSS setup, theme tokens, base typography, focus/selection styles, and utilities.
+ * Exports: N/A (styles)
+ * Consumes: Loaded via `src/app/layout.tsx`; variables used by components
+ * Routes: N/A (global stylesheet)
+ * Notes: Uses Tailwind v4 features and custom CSS variables for theme. NOTE: Fonts loaded via next/font in layout.
+ */
 @import "tailwindcss";
 /* Fonts are loaded via next/font in layout.tsx; remove external @import to avoid FOUT */
 

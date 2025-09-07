@@ -1,3 +1,11 @@
+/**
+ * File: src/app/sitemap.xml/route.ts
+ * Purpose: App Route handler generating an XML sitemap including static pages, projects, and blog posts.
+ * Exports: `GET(req: NextRequest)`
+ * Consumes: `getContent()` for projects and blog posts
+ * Routes: GET /sitemap.xml (application/xml)
+ * Notes: Marked `force-static`. NOTE: Uses `req.url` to derive site origin in serverless environments.
+ */
 import { NextRequest } from 'next/server'
 import { getContent } from '@/lib/content'
 

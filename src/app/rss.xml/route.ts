@@ -1,3 +1,11 @@
+/**
+ * File: src/app/rss.xml/route.ts
+ * Purpose: App Route handler producing an RSS 2.0 feed from blog posts.
+ * Exports: `GET(req: NextRequest)`
+ * Consumes: `getContent()` → `content.site`, `content.blog.posts`
+ * Routes: GET /rss.xml (application/xml)
+ * Notes: Marked `force-static`. Sorts posts by date desc; escapes content via CDATA.
+ */
 import { NextRequest } from 'next/server'
 import { getContent } from '@/lib/content'
 
@@ -31,4 +39,3 @@ export async function GET(req: NextRequest) {
     },
   })
 }
-

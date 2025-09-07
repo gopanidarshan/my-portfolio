@@ -1,3 +1,11 @@
+/**
+ * File: src/components/site-footer.tsx
+ * Purpose: Footer with brand, explore/resources links, social connections, and bottom bar info.
+ * Exports: `SiteFooter`
+ * Consumes: `getContent()` → `content.footer.*`; current year for copyright
+ * Routes: N/A (component)
+ * Notes: 'use client' for dynamic current year and download/target behaviors. Icons mapped by name.
+ */
 'use client'
 
 import Link from 'next/link'

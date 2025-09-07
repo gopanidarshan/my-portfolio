@@ -1,3 +1,11 @@
+/**
+ * File: src/app/skills/page.tsx
+ * Purpose: Skills page rendering categorized skills with icons and supporting content.
+ * Exports: `default` (Skills page component)
+ * Consumes: `getContent()` → `content.skills`
+ * Routes: GET /skills (text/html)
+ * Notes: Maps categories to icons; static content only.
+ */
 import { getContent } from '@/lib/content'
 import { SkillBadge } from '@/components/skill-badge'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'

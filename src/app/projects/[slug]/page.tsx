@@ -1,3 +1,11 @@
+/**
+ * File: src/app/projects/[slug]/page.tsx
+ * Purpose: Dynamic project detail page rendering summary, stack, problem/approach/outcome, and CTAs.
+ * Exports: `default` (ProjectDetail page component)
+ * Consumes: `getProjectBySlug(slug)` from `lib/content`
+ * Routes: GET /projects/[slug] (text/html)
+ * Notes: Uses `notFound()` on missing slug; awaits `params` as a Promise (Next 15+ convention).
+ */
 import { notFound } from 'next/navigation'
 import { getProjectBySlug } from '@/lib/content'
 import { Badge } from '@/components/ui/badge'

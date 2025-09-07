@@ -1,3 +1,11 @@
+/**
+ * File: src/app/about/page.tsx
+ * Purpose: About page summarizing background, focus areas, and a CTA.
+ * Exports: `default` (About page component)
+ * Consumes: `getContent()` → `content.about.*`
+ * Routes: GET /about (text/html)
+ * Notes: Static rendering from JSON; icons mapped by focus area labels.
+ */
 import { getContent } from '@/lib/content'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { CheckCircle, Target, Code, Database, BarChart3, Settings } from 'lucide-react'

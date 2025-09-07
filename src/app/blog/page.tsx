@@ -1,3 +1,11 @@
+/**
+ * File: src/app/blog/page.tsx
+ * Purpose: Blog index rendering a grid of posts or an empty state and CTA.
+ * Exports: `default` (Blog page component)
+ * Consumes: `getContent()` → `content.blog.posts`
+ * Routes: GET /blog (text/html)
+ * Notes: Lists posts from JSON; individual posts rendered via dynamic route.
+ */
 import { getContent } from '@/lib/content'
 import { PostCard } from '@/components/post-card'
 import Link from 'next/link'

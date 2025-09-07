@@ -3,12 +3,12 @@
     "name": "Darshan Gopani",
     "role": "Data & Automation Engineer",
     "tagline": "Designing scalable data platforms and automating analytics workflows.",
-    "location": "Remote",
-    "email": "darshangopani@gofynd.com",
+    "location": "Mumbai, Maharashtra, India",
+    "email": "darshangopani2@gmail.com",
     "social": {
-      "linkedin": "https://www.linkedin.com/in/darshangopani",
-      "github": "https://github.com/darshangopani",
-      "x": "https://x.com/darshangopani"
+      "linkedin": "https://www.linkedin.com/in/darshan-gopani",
+      "github": "https://github.com/gopanidarshan",
+      "x": "https://x.com/gopani_darshan"
     },
     "meta": {
       "title": "Darshan Gopani — Data & Automation Engineer",
@@ -60,7 +60,7 @@
       }
     ],
     "signatureCaseStudy": {
-      "eyebrow": "Featured Project",
+      "eyebrow": "",
       "title": "Copilot Analytics Platform",
       "description": "Unified analytics across 6 product domains with 3-level dashboard architecture",
       "bullets": [
@@ -348,13 +348,23 @@
         ]
       },
       {
-        "company": "Independent / Side Projects",
-        "role": "Analytics Engineer",
-        "period": "Ongoing",
+        "company": "Codsoft",
+        "role": "Data Science Intern",
+        "period": "July 2024 - August 2024",
         "highlights": [
-          "Built Console dashboards spanning 9 interconnected tables for plan/subscription visibility",
-          "Created serverless observability reports across Apps, Builds, Domains, Jobs, Namespaces, Releases",
-          "Established entity-level pipelines with stable join keys and timestamp standards"
+          "Built end-to-end ML workflows—from data preprocessing and feature engineering to model training and evaluation—that delivered actionable insights for real problems.",
+          "Collaborated with a fast-paced team of data scientists; contributed to reviews and communicated complex findings through clear, stakeholder-friendly presentations.",
+          "Developed models with real-world impact and strengthened proficiency in advanced ML methods and data visualization to support data-driven decisions."
+        ]
+      },
+      {
+        "company": "Afame Technologies",
+        "role": "Data Analyst Intern",
+        "period": "April 2024 - May 2024",
+        "highlights": [
+          "Gained hands-on experience in collecting, cleaning, and analyzing data to uncover insights that supported key business decisions.",
+          "Collaborated with senior analysts on projects leveraging modern analytics tools, contributing to innovation and optimized strategies.",
+          "Applied analytical skills to interpret complex datasets and deliver meaningful findings that informed data-driven decision-making."
         ]
       }
     ]

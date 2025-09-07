@@ -1,3 +1,11 @@
+/**
+ * File: src/app/sitemap.ts
+ * Purpose: Next.js metadata sitemap returning canonical URLs for static pages, projects, and blog posts.
+ * Exports: `default` (function returning `MetadataRoute.Sitemap`)
+ * Consumes: `getContent()` for nav links, projects, blog posts
+ * Routes: GET /sitemap.xml (served by metadata route; application/xml)
+ * Notes: Complements the explicit App Route at `/sitemap.xml/route.ts` for full control and caching.
+ */
 import { MetadataRoute } from 'next'
 import { getContent } from '@/lib/content'
 

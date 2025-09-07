@@ -1,3 +1,11 @@
+/**
+ * File: src/components/bottom-bar.tsx
+ * Purpose: Mobile-only bottom navigation bar for quick access to primary sections.
+ * Exports: `BottomBar`
+ * Consumes: Client location (`usePathname`)
+ * Routes: N/A (component)
+ * Notes: 'use client' component. Highlights active route; designed for small screens.
+ */
 'use client'
 
 import Link from 'next/link'

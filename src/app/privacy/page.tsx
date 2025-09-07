@@ -1,3 +1,11 @@
+/**
+ * File: src/app/privacy/page.tsx
+ * Purpose: Static Privacy Policy page describing data collection, usage, cookies, and contact.
+ * Exports: `metadata`, `default` (PrivacyPolicy component)
+ * Consumes: None (static copy; uses runtime date for last-updated)
+ * Routes: GET /privacy (text/html)
+ * Notes: Keeps content simple and readable; no client interactivity.
+ */
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -71,4 +79,3 @@ export default function PrivacyPolicy() {
     </div>
   )
 }
-
