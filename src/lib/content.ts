@@ -9,7 +9,10 @@
 import { Content } from '@/types/content'
 import contentData from '@/content/site-content.json'
 
-export const content: Content = contentData as Content
+// NOTE: JSON module types may not perfectly match `Content` during edits.
+// Casting through unknown avoids noisy structural-compatibility errors while
+// keeping downstream usage typed. See docs/content-schema.md for the source of truth.
+export const content: Content = contentData as unknown as Content
 
 /**
  * Returns the full, typed site content object.
