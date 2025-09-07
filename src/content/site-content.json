@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "Darshan Gopani",
-    "role": "Data & Automation Engineer",
+    "role": "Program Intern @Fynd",
     "tagline": "Designing scalable data platforms and automating analytics workflows.",
     "location": "Mumbai, Maharashtra, India",
     "email": "darshangopani2@gmail.com",
@@ -11,7 +11,7 @@
       "x": "https://x.com/gopani_darshan"
     },
     "meta": {
-      "title": "Darshan Gopani — Data & Automation Engineer",
+      "title": "Darshan Gopani — Program Intern @Fynd",
       "description": "Portfolio of Darshan Gopani, a Data & Automation Engineer specializing in BigQuery, analytics engineering, and workflow automation."
     }
   },
@@ -70,11 +70,11 @@
         },
         {
           "label": "Approach", 
-          "text": "Modeled central entity (account) and joined Copilot app datasets with UTM & device context"
+          "text": "Modeled central entity (account) and joined Copilot app datasets with other relevant data"
         },
         {
           "label": "Outcome",
-          "text": "Three-level dashboard enabling growth, product, and support teams to align on shared KPIs"
+          "text": "Three-level dashboard enabling growth, product, and support teams to get insights"
         }
       ],
       "cta": {
@@ -82,54 +82,7 @@
         "href": "/projects/copilot-analytics-platform"
       }
     },
-    "hiringPlan": {
-      "title": "30/60/90 Day Plan",
-      "subtitle": "Concrete outcomes and deliverables for your first quarter",
-      "cards": [
-        {
-          "period": "30 Days",
-          "title": "Data Foundation",
-          "outcomes": [
-            "Audit existing data models and identify gaps",
-            "Establish data quality monitoring",
-            "Document current analytics workflows"
-          ],
-          "deliverables": [
-            "Data model assessment report",
-            "Quality check automation setup",
-            "Analytics documentation framework"
-          ]
-        },
-        {
-          "period": "60 Days", 
-          "title": "Unified Analytics",
-          "outcomes": [
-            "Build core entity models (account, product, subscription)",
-            "Create standardized metric definitions",
-            "Implement automated refresh schedules"
-          ],
-          "deliverables": [
-            "Unified data model in BigQuery",
-            "Metric contract documentation",
-            "Automated dashboard refresh pipeline"
-          ]
-        },
-        {
-          "period": "90 Days",
-          "title": "Self-Serve Platform",
-          "outcomes": [
-            "Deploy self-serve analytics dashboards",
-            "Enable stakeholder data access",
-            "Establish monitoring and alerting"
-          ],
-          "deliverables": [
-            "Looker Studio dashboard suite",
-            "Stakeholder training materials",
-            "Data quality alerting system"
-          ]
-        }
-      ]
-    },
+    
     "toolbox": {
       "title": "Core Technologies",
       "subtitle": "Tools and techniques I use to build reliable data systems",
@@ -184,7 +137,7 @@
       "name": "Darshan Gopani",
       "role": "Data & Automation Engineer",
       "tagline": "Designing scalable data platforms and automating analytics workflows.",
-      "location": "Remote"
+      "location": "Mumbai, Maharashtra, India"
     },
     "explore": {
       "title": "Explore",
@@ -201,7 +154,7 @@
     "resources": {
       "title": "Resources",
       "links": [
-        {"label": "Download Resume", "href": "/Darshan-Gopani-Resume.pdf"},
+        {"label": "Download Resume", "href": "/Darshan Gopani Resume.pdf"},
         {"label": "RSS Feed", "href": "/rss.xml"},
         {"label": "View Sitemap", "href": "/sitemap.xml"},
         {"label": "Privacy Policy", "href": "/privacy"}
@@ -212,22 +165,22 @@
       "social": [
         {
           "name": "LinkedIn",
-          "href": "https://www.linkedin.com/in/darshangopani",
+          "href": "https://www.linkedin.com/in/darshan-gopani",
           "icon": "Linkedin"
         },
         {
           "name": "GitHub", 
-          "href": "https://github.com/darshangopani",
+          "href": "https://github.com/gopanidarshan",
           "icon": "Github"
         },
         {
           "name": "X (Twitter)",
-          "href": "https://x.com/darshangopani",
+          "href": "https://x.com/gopani_darshan",
           "icon": "Twitter"
         },
         {
           "name": "Email",
-          "href": "mailto:darshangopani@gofynd.com",
+          "href": "mailto:darshangopani2@gmail.com",
           "icon": "Mail"
         }
       ]
