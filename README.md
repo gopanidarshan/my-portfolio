@@ -215,8 +215,6 @@ The site is optimized for:
 The site can be deployed to any platform that supports Next.js:
 - Netlify
 - AWS Amplify
-- Railway
-- DigitalOcean App Platform
 
 ## 📄 License
 
