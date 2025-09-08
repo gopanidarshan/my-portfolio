@@ -12,7 +12,7 @@
     },
     "meta": {
       "title": "Darshan Gopani — Program Intern @Fynd",
-      "description": "Portfolio of Darshan Gopani, a Data & Automation Engineer specializing in BigQuery, analytics engineering, and workflow automation."
+      "description": "Portfolio of Darshan Gopani, a Program Intern @Fynd specializing in BigQuery, analytics engineering, and workflow automation."
     }
   },
   "nav": [
@@ -20,6 +20,7 @@
     {"label": "About", "href": "/about"},
     {"label": "Projects", "href": "/projects"},
     {"label": "Experience", "href": "/experience"},
+    {"label": "Education", "href": "/education"},
     {"label": "Skills", "href": "/skills"},
     {"label": "Blog", "href": "/blog"},
     {"label": "Contact", "href": "/contact"}
@@ -171,18 +172,18 @@
       "subtitle": "Let's discuss your analytics and automation needs",
       "primaryCta": {
         "label": "Send Email",
-        "href": "mailto:darshangopani@gofynd.com"
+        "href": "mailto:darshangopani2@gmail.com"
       },
       "secondaryCta": {
         "label": "Download Resume",
-        "href": "/resume.pdf"
+        "href": "/Darshan Gopani Resume.pdf"
       }
     }
   },
   "footer": {
     "brand": {
       "name": "Darshan Gopani",
-      "role": "Data & Automation Engineer",
+      "role": "Program Intern @Fynd",
       "tagline": "Designing scalable data platforms and automating analytics workflows.",
       "location": "Mumbai, Maharashtra, India"
     },
@@ -193,6 +194,7 @@
         {"label": "About", "href": "/about"},
         {"label": "Projects", "href": "/projects"},
         {"label": "Experience", "href": "/experience"},
+        {"label": "Education", "href": "/education"},
         {"label": "Skills", "href": "/skills"},
         {"label": "Blog", "href": "/blog"},
         {"label": "Contact", "href": "/contact"}
@@ -337,8 +339,8 @@
     "items": [
       {
         "company": "Fynd",
-        "role": "Data & Automation Engineer",
-        "period": "2024–Present",
+        "role": "Program Intern @Fynd",
+        "period": "April 2025 - Present",
         "highlights": [
           "Built BigQuery-based models joining CopilotApps, Threads, Messages, DataSources, Integrations, and Subscriptions for unified analytics",
           "Shipped multi-level dashboards (overall, company-level, UTM view) for growth and product teams",
@@ -411,6 +413,167 @@
       "errorMessage": "Something went wrong. Please try again or use the email link."
     }
   },
+  "education": {
+    "hero": {
+      "subtitle": "A strong analytical foundation with hands-on data practice.",
+      "updated": "2025-09-01"
+    },
+    "degrees": [
+      {
+        "institution": "Institute of Technology, Mumbai",
+        "degree": "Bachelor of Engineering",
+        "field": "Computer Engineering",
+        "startDate": "2022",
+        "endDate": "2026",
+        "gpa": "8.7/10",
+        "location": "Mumbai, India",
+        "highlights": [
+          "Focused on data engineering, distributed systems, and applied ML",
+          "Led a peer study group on SQL and analytics engineering",
+          "Built academic projects around ETL, modeling, and dashboards"
+        ],
+        "coursework": [
+          "Data Structures",
+          "Algorithms",
+          "Database Systems",
+          "Operating Systems",
+          "Distributed Systems",
+          "Machine Learning",
+          "Statistics",
+          "Data Warehousing"
+        ]
+      },
+      {
+        "institution": "Modern Science High School",
+        "degree": "Higher Secondary (Science)",
+        "startDate": "2020",
+        "endDate": "2022",
+        "gpa": "92%",
+        "location": "Mumbai, India",
+        "highlights": [
+          "Maths and Computer Science track",
+          "Science fair project on predictive analytics"
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "provider": "Google",
+        "title": "Google Data Analytics Certificate",
+        "issueDate": "2024-06",
+        "credentialId": "GDA-1234",
+        "verifyUrl": "https://www.credly.com/"
+      },
+      {
+        "provider": "dbt Labs",
+        "title": "dbt Fundamentals",
+        "issueDate": "2024-09",
+        "credentialId": "DBT-5678",
+        "verifyUrl": "https://learn.getdbt.com/"
+      },
+      {
+        "provider": "AWS",
+        "title": "AWS Certified Cloud Practitioner",
+        "issueDate": "2025-02",
+        "credentialId": "AWS-CLF-0001",
+        "verifyUrl": "https://aws.amazon.com/verification"
+      }
+    ],
+    "coursework": [
+      "Data Structures",
+      "Algorithms",
+      "Database Systems",
+      "Operating Systems",
+      "Distributed Systems",
+      "Machine Learning",
+      "Statistics",
+      "Data Warehousing",
+      "Data Visualization",
+      "ETL/ELT"
+    ],
+    "courses": [
+      {
+        "name": "Machine Learning",
+        "category": "ML",
+        "outcome": "Built and evaluated models; understood bias/variance and cross‑validation",
+        "tools": ["Scikit-learn", "Pandas"]
+      },
+      {
+        "name": "BigQuery Data Modeling",
+        "category": "Data Engineering",
+        "outcome": "Designed entity-first schemas and optimized queries",
+        "tools": ["BigQuery", "SQL"]
+      },
+      {
+        "name": "Analytics Dashboards",
+        "category": "Analytics",
+        "outcome": "Built self-serve dashboards and defined metric contracts",
+        "tools": ["Looker Studio"]
+      },
+      {
+        "name": "Advanced SQL",
+        "category": "Programming",
+        "outcome": "Window functions, CTEs, and performance tuning",
+        "tools": ["SQL"]
+      },
+      {
+        "name": "ETL Pipelines",
+        "category": "Data Engineering",
+        "outcome": "Modeled ingestion and transformation with quality checks",
+        "tools": ["SQL", "Design Patterns"]
+      },
+      {
+        "name": "Statistical Inference",
+        "category": "Analytics",
+        "outcome": "Hypothesis testing and confidence intervals for decisions",
+        "tools": ["Statistics"]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Student Performance Analytics",
+        "context": "Course capstone",
+        "stack": ["BigQuery", "SQL", "Looker Studio"],
+        "summary": "Modeled student, course, and assessment data for trend insights",
+        "outcome": "Identified factors correlating with grades and attendance",
+        "links": {"demo": "", "repo": ""}
+      },
+      {
+        "title": "ETL for Library Events",
+        "context": "Academic project",
+        "stack": ["SQL", "dbt (patterns)", "GCS (mock)"] ,
+        "summary": "Built a simple event ingestion and transformation flow",
+        "outcome": "Enabled basic reporting over loans and returns",
+        "links": {"demo": "", "repo": ""}
+      }
+    ],
+    "honors": [
+      {"title": "Dean's List", "year": "2023", "issuer": "Institute of Technology, Mumbai"},
+      {"title": "Hackathon Finalist", "year": "2024", "issuer": "TechFest"}
+    ],
+    "downloads": [
+      {"label": "Download Transcript (PDF)", "href": "/transcript.pdf"},
+      {"label": "Request Official Transcript", "href": "mailto:darshangopani2@gmail.com?subject=Transcript%20Request"}
+    ],
+    "activities": [
+      {
+        "role": "Lead, Data Club",
+        "organization": "Institute of Technology, Mumbai",
+        "period": "2024–2025",
+        "description": "Organized weekly sessions on SQL, modeling, and analytics",
+        "highlights": [
+          "Mentored juniors on query optimization",
+          "Ran dashboard review workshops"
+        ]
+      },
+      {
+        "role": "Teaching Assistant",
+        "organization": "Database Systems",
+        "period": "Fall 2024",
+        "description": "Supported lab sessions and graded assignments"
+      }
+    ]
+  },
   "seo": {
     "pages": [
       {
@@ -432,6 +595,11 @@
         "path": "/experience",
         "title": "Experience — Darshan Gopani",
         "description": "Impact delivering unified analytics and automated data pipelines."
+      },
+      {
+        "path": "/education",
+        "title": "Education — Darshan Gopani",
+        "description": "Degrees, Certifications, Coursework, Academic Projects, and Honors."
       },
       {
         "path": "/skills",

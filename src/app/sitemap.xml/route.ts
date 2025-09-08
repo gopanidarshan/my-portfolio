@@ -23,6 +23,7 @@ export async function GET(req: NextRequest) {
     '/about',
     '/projects',
     '/experience',
+    '/education',
     '/skills',
     '/blog',
     '/contact',

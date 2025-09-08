@@ -62,6 +62,31 @@ export function BreadcrumbJsonLd({ items }: { items: Array<{ name: string; url: 
   )
 }
 
+/**
+ * File: src/components/json-ld.tsx
+ * Purpose: Add EducationalOrganization JSON-LD for institutions (if provided by education content).
+ * Exports: `EducationalOrgJsonLd`
+ * Consumes: `{ name, url?, sameAs? }` org object
+ * Routes: N/A (component)
+ * Notes: Keep payload minimal; safe to render multiple per page.
+ */
+export function EducationalOrgJsonLd({ org }: { org: { name: string; url?: string; sameAs?: string[] } }) {
+  const educationalOrg = {
+    '@context': 'https://schema.org',
+    '@type': 'EducationalOrganization',
+    name: org.name,
+    ...(org.url ? { url: org.url } : {}),
+    ...(org.sameAs && org.sameAs.length > 0 ? { sameAs: org.sameAs } : {}),
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(educationalOrg) }}
+    />
+  )
+}
+
 export function ProjectJsonLd({ project }: { project: { title: string; summary: string; period: string; stack: string[] } }) {
   const projectJsonLd = {
     '@context': 'https://schema.org',

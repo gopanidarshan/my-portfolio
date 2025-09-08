@@ -219,6 +219,81 @@ export interface SEO {
   pages: SEOPage[];
 }
 
+// Education types (all sections optional; page skips missing ones)
+export interface Degree {
+  institution: string;
+  degree: string;
+  field?: string;
+  startDate?: string;
+  endDate?: string;
+  gpa?: string;
+  location?: string;
+  highlights?: string[];
+  coursework?: string[];
+}
+
+export interface Certification {
+  provider: string;
+  title: string;
+  issueDate?: string;
+  expiryDate?: string;
+  credentialId?: string;
+  verifyUrl?: string;
+}
+
+export interface AcademicProject {
+  title: string;
+  context?: string;
+  stack?: string[];
+  summary?: string;
+  outcome?: string;
+  links?: {
+    repo?: string;
+    demo?: string;
+  };
+}
+
+export interface CourseItem {
+  name: string;
+  category: string; // e.g., ML, Data Engineering, Analytics, Programming
+  outcome?: string; // short outcome/what you learned
+  tools?: string[]; // badges for tools/tech
+}
+
+export interface Honor {
+  title: string;
+  year?: string;
+  issuer?: string;
+}
+
+export interface DownloadItem {
+  label: string;
+  href: string;
+}
+
+export interface Activity {
+  role: string; // e.g., "Mentor", "Club Lead", "TA"
+  organization?: string; // club/org/society name
+  period?: string; // e.g., "2023–2024"
+  description?: string; // short description
+  highlights?: string[]; // bullets
+}
+
+export interface Education {
+  hero?: {
+    subtitle?: string;
+    updated?: string; // ISO date string
+  };
+  degrees?: Degree[];
+  certifications?: Certification[];
+  coursework?: string[];
+  courses?: CourseItem[]; // structured coursework for filterable grid
+  projects?: AcademicProject[];
+  honors?: Honor[];
+  downloads?: DownloadItem[];
+  activities?: Activity[];
+}
+
 export interface Content {
   site: Site;
   nav: NavItem[];
@@ -231,6 +306,7 @@ export interface Content {
   contact: Contact;
   footer: Footer;
   seo: SEO;
+  education?: Education; // optional until JSON provided
 }
 
 export interface ContactFormData {
