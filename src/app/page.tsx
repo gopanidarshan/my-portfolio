@@ -1,6 +1,6 @@
 /**
  * File: src/app/page.tsx
- * Purpose: Home page composition rendering hero, stats, case study, hiring plan, toolbox, and CTA banner.
+ * Purpose: Home page composition rendering hero, stats, case study, toolbox, and CTA banner.
  * Exports: `default` (Home page component)
  * Consumes: `getContent()` → `content.home.*`
  * Routes: GET / (text/html)
@@ -10,7 +10,6 @@ import Link from 'next/link'
 import { getContent } from '@/lib/content'
 import { StatsStrip } from '@/components/stats-strip'
 import { SignatureCaseStudy } from '@/components/signature-case-study'
-import { HiringPlan } from '@/components/hiring-plan'
 import { Toolbox } from '@/components/toolbox'
 import { CtaBanner } from '@/components/cta-banner'
 
@@ -51,8 +50,6 @@ export default function Home() {
       {/* Signature Case Study */}
       <SignatureCaseStudy caseStudy={content.home.signatureCaseStudy} />
 
-      {/* Hiring Plan */}
-      <HiringPlan plan={content.home.hiringPlan} />
 
       {/* Toolbox */}
       <Toolbox toolbox={content.home.toolbox} />

@@ -6,7 +6,7 @@ This document explains the structure and purpose of every field in `src/content/
 
 - site: Global owner/branding metadata used across the site.
 - nav: Primary navigation items (label + href) used in headers and sitemaps.
-- home: Content blocks for the landing page (hero, stats, case study, plan, toolbox, CTA).
+- home: Content blocks for the landing page (hero, stats, case study, toolbox, CTA).
 - footer: Footer sections including quick links, resources, social, and bottom bar text.
 - about: Copy for the About page (title, summary paragraphs, focus areas).
 - projects: Intro copy and an array of project case studies.
@@ -56,9 +56,6 @@ Array of objects used by navigation and sitemaps:
   - description: Summary paragraph
   - bullets: [{ label, text }]
   - cta: { label, href }
-- hiringPlan: 30/60/90 plan content.
-  - title, subtitle
-  - cards: Array of { period, title, outcomes[], deliverables[] }
 - toolbox: Tool listing block.
   - title, subtitle
   - tools: Array of { name, icon, description }
@@ -183,4 +180,3 @@ Object keyed by category names (e.g., "Data Engineering"). Each key maps to an a
   "date": "2025-09-15"
 }
 ```
-

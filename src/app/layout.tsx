@@ -80,12 +80,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <PersonJsonLd />
-      </head>
       <body
         className={`${dmSans.variable} ${jetbrainsMono.variable} antialiased`}
       >
+        {/* JSON-LD can render in body in App Router to avoid custom <head> */}
+        <PersonJsonLd />
         <ThemeProvider>
           <div className="min-h-dvh flex flex-col">
             <SiteNav />

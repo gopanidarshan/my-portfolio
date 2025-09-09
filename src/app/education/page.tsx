@@ -27,19 +27,18 @@ export default function EducationPage() {
 
   return (
     <div className="min-h-screen py-16">
-      <head>
-        <BreadcrumbJsonLd
-          items={[
-            { name: 'Home', url: 'https://darshangopani.com/' },
-            { name: 'Education', url: 'https://darshangopani.com/education' },
-          ]}
-        />
-        {education?.degrees && (
-          Array.from(new Set(education.degrees.map(d => d.institution))).map((name) => (
-            <EducationalOrgJsonLd key={name} org={{ name }} />
-          ))
-        )}
-      </head>
+      {/* JSON-LD scripts can live in body; avoid custom <head> in App Router */}
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: 'https://darshangopani.com/' },
+          { name: 'Education', url: 'https://darshangopani.com/education' },
+        ]}
+      />
+      {education?.degrees && (
+        Array.from(new Set(education.degrees.map(d => d.institution))).map((name) => (
+          <EducationalOrgJsonLd key={name} org={{ name }} />
+        ))
+      )}
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         <EduHero subtitle={education?.hero?.subtitle} updated={education?.hero?.updated} />

@@ -5,7 +5,7 @@ Overview of each page/route: purpose, inputs, and outputs/content types.
 ## Pages (App Router)
 
 - / (Home)
-  - Purpose: Landing page with hero, stats, featured case study, 30/60/90 plan, toolbox, CTA.
+  - Purpose: Landing page with hero, stats, featured case study, toolbox, CTA.
   - Inputs: `content.home.*` from `src/content/site-content.json`.
   - Output: HTML (static rendering).
 
@@ -91,4 +91,3 @@ Overview of each page/route: purpose, inputs, and outputs/content types.
 - All pages use static data from `src/content/site-content.json` through helpers in `src/lib/content.ts`.
 - `formatDate` is used for blog post dates.
 - The site is designed to be statically rendered; no server DB calls are involved.
-

@@ -83,54 +83,7 @@
         "href": "/projects/copilot-analytics-platform"
     }
     },
-    "hiringPlan": {
-      "title": "30/60/90 Day Plan",
-      "subtitle": "Concrete outcomes and deliverables for your first quarter",
-      "cards": [
-        {
-          "period": "30 Days",
-          "title": "Data Foundation",
-          "outcomes": [
-            "Audit existing data models and identify gaps",
-            "Establish data quality monitoring",
-            "Document current analytics workflows"
-          ],
-          "deliverables": [
-            "Data model assessment report",
-            "Quality check automation setup",
-            "Analytics documentation framework"
-          ]
-        },
-        {
-          "period": "60 Days",
-          "title": "Unified Analytics",
-          "outcomes": [
-            "Build core entity models (account, product, subscription)",
-            "Create standardized metric definitions",
-            "Implement automated refresh schedules"
-          ],
-          "deliverables": [
-            "Unified data model in BigQuery",
-            "Metric contract documentation",
-            "Automated dashboard refresh pipeline"
-          ]
-        },
-        {
-          "period": "90 Days",
-          "title": "Self-Serve Platform",
-          "outcomes": [
-            "Deploy self-serve analytics dashboards",
-            "Enable stakeholder data access",
-            "Establish monitoring and alerting"
-          ],
-          "deliverables": [
-            "Looker Studio dashboard suite",
-            "Stakeholder training materials",
-            "Data quality alerting system"
-          ]
-        }
-      ]
-    },
+    
     "toolbox": {
       "title": "Core Technologies",
       "subtitle": "Tools and techniques I use to build reliable data systems",
