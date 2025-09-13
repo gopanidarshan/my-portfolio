@@ -19,11 +19,11 @@ export function SkillBadge({ skill, category, index }: SkillBadgeProps) {
       case 'Analytics & Visualization':
         return 'info'
       case 'Cloud & Tools':
-        return 'secondary'
+        return 'default'
       case 'Practices':
-        return 'outline'
+        return 'success'
       default:
-        return 'secondary'
+        return 'default'
     }
   }
 

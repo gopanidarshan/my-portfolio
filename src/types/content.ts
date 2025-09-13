@@ -54,7 +54,18 @@ export interface SignatureCaseStudy {
   };
 }
 
-// Removed HiringPlan types
+// export interface HiringPlanCard {
+//   period: string;
+//   title: string;
+//   outcomes: string[];
+//   deliverables: string[];
+// }
+
+// export interface HiringPlan {
+//   title: string;
+//   subtitle: string;
+//   cards: HiringPlanCard[];
+// }
 
 export interface ToolboxItem {
   name: string;
@@ -86,6 +97,7 @@ export interface Home {
   highlights: string[];
   statsStrip: StatsItem[];
   signatureCaseStudy: SignatureCaseStudy;
+  // hiringPlan: HiringPlan;
   toolbox: Toolbox;
   ctaBanner: CtaBanner;
 }

@@ -9,6 +9,7 @@
 import Link from 'next/link'
 import { getContent } from '@/lib/content'
 import { StatsStrip } from '@/components/stats-strip'
+import { HighlightsSection } from '@/components/highlights-section'
 import { SignatureCaseStudy } from '@/components/signature-case-study'
 import { Toolbox } from '@/components/toolbox'
 import { CtaBanner } from '@/components/cta-banner'
@@ -47,9 +48,11 @@ export default function Home() {
       {/* Stats Strip */}
       <StatsStrip stats={content.home.statsStrip} />
 
+      {/* Highlights Section */}
+      <HighlightsSection highlights={content.home.highlights} />
+
       {/* Signature Case Study */}
       <SignatureCaseStudy caseStudy={content.home.signatureCaseStudy} />
-
 
       {/* Toolbox */}
       <Toolbox toolbox={content.home.toolbox} />

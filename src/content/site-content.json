@@ -83,7 +83,6 @@
         "href": "/projects/copilot-analytics-platform"
     }
     },
-    
     "toolbox": {
       "title": "Core Technologies",
       "subtitle": "Tools and techniques I use to build reliable data systems",
@@ -373,12 +372,12 @@
     },
     "degrees": [
       {
-        "institution": "Institute of Technology, Mumbai",
-        "degree": "Bachelor of Engineering",
-        "field": "Computer Engineering",
+        "institution": "Usha Pravin Gandhi College of Arts, Commerce and Science",
+        "degree": "Bachelor of Science",
+        "field": "Information Technology",
         "startDate": "2022",
-        "endDate": "2026",
-        "gpa": "8.7/10",
+        "endDate": "2025",
+        "gpa": "8.25/10",
         "location": "Mumbai, India",
         "highlights": [
           "Focused on data engineering, distributed systems, and applied ML",
@@ -390,14 +389,14 @@
           "Algorithms",
           "Database Systems",
           "Operating Systems",
-          "Distributed Systems",
-          "Machine Learning",
-          "Statistics",
-          "Data Warehousing"
+          "Python",
+          "Power BI",
+          "Data Visualization",
+          "Java"
         ]
       },
       {
-        "institution": "Modern Science High School",
+        "institution": "KES Shroff College of Science and Commerce",
         "degree": "Higher Secondary (Science)",
         "startDate": "2020",
         "endDate": "2022",
@@ -519,6 +518,7 @@
           "Ran dashboard review workshops"
         ]
       },
+      
       {
         "role": "Teaching Assistant",
         "organization": "Database Systems",

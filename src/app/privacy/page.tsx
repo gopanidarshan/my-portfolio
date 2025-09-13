@@ -19,14 +19,14 @@ export default function PrivacyPolicy() {
   })
 
   return (
-    <div className="min-h-screen py-16">
+    <div className="min-h-screen pb-safe py-16">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <header className="text-center mb-12">
-          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">Privacy Policy</h1>
-          <p className="text-gray-600 dark:text-gray-400">Your privacy matters. This page explains what data is collected and how it is used.</p>
+        <header className="mb-10">
+          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white">Privacy Policy</h1>
+          <p className="mt-4 text-large text-gray-600 dark:text-gray-300 max-w-2xl">Your privacy matters. This page explains what data is collected and how it is used.</p>
         </header>
 
-        <section className="prose prose-lg max-w-none dark:prose-invert">
+        <section className="prose prose-gray prose-lg max-w-none dark:prose-invert">
           <h2>What data is collected</h2>
           <p>
             This site only collects personal information that you voluntarily provide through the contact form. The
@@ -73,7 +73,9 @@ export default function PrivacyPolicy() {
             {' '}<a className="underline" href="mailto:darshangopani@gofynd.com">darshangopani@gofynd.com</a>.
           </p>
 
-          <p className="text-sm text-gray-500 dark:text-gray-400 mt-8">Last updated: {updated}</p>
+          <div className="mt-10 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800/40 p-4">
+            <p className="text-sm text-gray-600 dark:text-gray-300">Last updated: {updated}</p>
+          </div>
         </section>
       </div>
     </div>

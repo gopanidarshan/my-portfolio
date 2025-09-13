@@ -12,7 +12,7 @@ import { getContent } from '@/lib/content'
 export default function sitemap(): MetadataRoute.Sitemap {
   const content = getContent()
   
-  const baseUrl = 'https://darshangopani.com'
+  const baseUrl = 'https://darshan-gopani.vercel.app'
   
   // Static pages
   const staticPages = content.nav.map((item) => ({
